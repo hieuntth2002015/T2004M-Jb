@@ -1,0 +1,111 @@
+body{
+    font-family: arial, Tahoma;
+    font-size: 12px;
+}
+#main{
+    width:1000px;
+    padding:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 100px;
+    background-color: white;/*mau nen*/
+    border: 1px solid darkred;/*viền*/
+    margin-bottom: 5px;
+    color: red;/*màu chữ*/
+    /*text-align: center;/*cân giữa *//
+    background-size: cover;
+    background-position: center;
+}
+#head_image{
+    width: 549px; /*--Chỉ định chiều rộng--*/
+    height: 100px; /*--Chỉ định chiều cao--*/
+    position: relative; /*--thiết lập vị trí tuyệt đối--*/
+    top: 5px; /*--thiết lập toạ độ top 50%--*/
+    right: 700; /*--thiết lập toạ độ left 50%--*/
+    margin: -5px 0px 5px 450px;
+}
+#head_logo{
+    height: 92px;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}
+#head_name{
+    text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
+    text-align: center;
+    color: #e1322f;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    left: 350px;
+    top: 20px;
+}
+
+#head-link{
+    overflow: hidden;
+    height: 50px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #CDCDCD;
+    background-color: darkred;
+    margin-bottom: 5px;
+    clear: both;
+}
+#head-link a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+#head-link a:hover{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+#main #left {
+    width: 800px;
+    background: #ccc;
+    float: left;
+}
+#main #left ul {
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    border-bottom: 2px solid #ccc;
+}
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+}
+#main #right .menu_right ul{
+    margin: 0px;
+    padding_ 0px;
+    float: left;
+
+}
+#main #right .menu_right ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 32px;
+
+
+}
+#main #right .menu_right h3{
+    background: darkred;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    line-height:40px;
+}
+
+
