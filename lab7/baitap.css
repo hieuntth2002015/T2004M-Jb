@@ -1,0 +1,42 @@
+
+body {
+    background-color: #242f44;
+    color: white;
+      }
+    
+
+h1 {
+    text-align: center;
+        margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        padding: 15px;
+        color: #8c6b48;
+        background-color: white;
+    }
+    table{
+        max-width: 940px;
+        margin: 0 auto;
+        height: 100px;
+        text-align: center;
+        margin:20px auto;
+        
+    }
+    table tr th, td{
+        height: 35px;
+        border: 2px solid #8c6b48;
+
+    }
+    table tr th span{
+        color: #8c6b48;
+        text-align: center;
+        font-size: 50px;
+        padding: 5px;
+        background-color: white;
+    }
+     footer {
+        text-align: center;
+        background-color: #242f44;
+        -ms-flex-line-pack: 100px;
+     } 
+      
