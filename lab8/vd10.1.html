@@ -1,0 +1,24 @@
+<head>
+<style>
+    input:required {
+        outline: 1px red solid;
+        color: green;
+    }
+    input: required: valid{
+    background-size: 10px10px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    }
+    input: required: invalid {
+        background-size: 10px10px;
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body>
+    <form method="get" action="try.php">
+        Name: <input type="text" name="name" required= "true" /></br>
+        EMail:<input type="submit" value="submit" />
+    </form>
+</body>
