@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    body{
+        font-size: 20px;
+        background-image: url("images/dark-wood.jpg")
+        
+    }
+    #main {
+        width: 1250px;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+    
+    }
+    #head {
+        height: 130px;
+        
+        margin-bottom: 5px;
+        width: 1250px;
+        position: relative;
+        top: 5px;
+    }
+    #head_images {
+        width: 1250px;
+        height: 130px;
+    }
+    #head-link {
+        overflow: hidden;
+        height: 50px;
+        font-size: 25px;
+        line-height: 42px;
+        padding-left: 10px;
+        background-color: grey;
+        margin-bottom: -25px;
+        margin-left: -1px;
+        clear: both;
+    }
+    
+    #head-link a{
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    #head-link a:hover{
+        color: black;
+        font-weight: bold;
+    }
+    #main #left {
+        width: 900px;
+        background:whitesmoke; 
+        float: left;
+        margin-left: 1px;
+        height: 610px;
+    }
+    #main #left ul {
+        margin: 20px;
+        padding: 10px;
+        
+    }
+    #main #left ul li {
+        list-style: none;
+        padding: 11px;
+    
+    }
+    #main #right ul li a:hover {
+        color:rgb(172, 79, 79);
+        background-color: rgb(153, 148, 148);
+    }
+    #main #left ul li img  {
+        float: left;
+        margin-right: 30px;
+        margin-top: 0px;
+
+    }
+    #main #right {
+        color: rgb(172, 79, 79);
+        background-color: whitesmoke;
+        height: 610px;
+    }
+    
+    #main #right .menu h1{
+        text-indent: 20px;
+    }
+    #main #right .menu ul {
+        padding: 0px;
+        margin-top: -10px;
+    
+        
+    }
+    #main #right .menu ul li {
+        list-style: none;
+        line-height: 50px;
+        padding-bottom: 10px;
+        
+        
+    }
+    #main #right .menu ul li a{
+            text-decoration: none;
+            border-bottom: 1px solid darkgray;
+            color: rgb(172, 79, 79);
+            padding-left: 30px;
+            display: block;
+            text-indent: 35px;
+    }
+    #main #right .contact h1 {
+        text-indent: 20px;
+    }
+    #main #right .contact ul {
+        text-indent: 20px;
+        list-style: none;
+        color: black;
+    }
+    #main #footer {
+        background-color: gray;
+        color:White;
+        height: 50px;
+        line-height: 40px;
+        padding-top: 5px;
+    }
+    #main #footer h3 {
+        margin-left: 20px;
+        line-height: 2px;
+    }
+    #left ul li h2 {
+        color:rgb(172, 79, 79);
+        margin-top: -25px;
+
+    }
+    #left ul li h2 {
+        margin-bottom: 40px;
+    }
+    #left ul li p {
+        margin-bottom: 70px;
+        margin-top: 20px;
+
+    }
+   #left_images {
+       width: 400px;
+   }
+   #head-link a.active{
+       color: black;
+   }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <img id="head_images" src="images/header.jpg" alt="">
+    
+        </div>
+        <div id="head-link">
+            <a href="#" class="active">home</a>
+            <a href="#">classes</a>
+            <a href="#">catering</a>
+            <a href="#">about</a>
+            <a href="#">contact</a>
+        </div>
+        
+        <div id="content">
+            <div id="left">
+                <ul>
+                    <li>
+                        <img id="left_images" src="images/bok-choi.jpg" alt="Bok Choi">
+                        <h1>Japanese Vegetarian</h1>
+                        <h2>Five week course in London</h2>
+                        <p>A five week introduction to traditional 
+                            japanese vegetarian meals, teaching you a
+                            selection of rice and noodle dishes.
+                        </p>
+                        <img id="left_images" src="images/teriyaki.jpg" alt="Teriyaki sauce">
+                        <h1>Sauces Masterclass</h1>
+                        <h2>One day workshop</h2>
+                        <p>An intensive one-day course looking at how 
+                            to create the most delicious sauces for use in
+                            a range of Japanese cookery.
+                        </p>
+                    </li>
+                </ul>
+        </div>
+        
+        <div id="right">
+                <div class="menu">
+                    <h1>Popular Recipes</h1>
+                    <ul>
+                        <li><a href="#">Yakitori(grilled chiken)</a></li>
+                        <li><a href="#">Tsukume(minced chicken pancakes)</a></li>
+                        <li><a href="#">Okonomiyaki(savory pancakes)</a></li>
+                        <li><a href="#">Mizutaki(chicken stew)</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h1>Contact</h1>
+                    <ul>
+                        <li>Yoko's Kitchen</li>
+                        <li>27 Redchurch Street</li>
+                        <li>Shoreditch</li>
+                        <li>London E2<sub>7</sub>DP</li>
+                    </ul>
+                </div>
+        </div>
+        </div>
+        
+        <div id="footer">
+            <h3>©2011 Yoko's Kitchen</h3>
+
+        </div>
+
+    </div>
+</html>
+
