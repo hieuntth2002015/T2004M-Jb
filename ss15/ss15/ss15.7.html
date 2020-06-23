@@ -1,0 +1,14 @@
+<script>
+    functioncal_diameter()
+    {
+        var diameter = this.radius*2;
+        return diameter;
+    }
+    function circle(radius)
+    {
+        this.radius=radius;
+        this.get_diameter=cal_diameter;
+    }
+    circleObj=new circle('10');
+    alert('Diameter: ' + circleObj.get_diameter());
+</script>
