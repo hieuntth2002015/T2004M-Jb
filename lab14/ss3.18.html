@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('ul').on('click', 'li', function () {
+                $(this).fadeOut(500);
+            });
+            $('#btnAdd').on('click',  function () {
+                $('ul').append('<li>New List Item</li>');
+            });
+            $('#btnUndelegate').on('click', function () {
+                $('ul').off('click', 'li');
+            });
+        });
+    </script>
+</head>
+<body style = "font-family: Arial">
+<input id="btnAdd" type="button" value="Add a New List Item" />
+<input id="btnUndelegate" type="button" value="Undelegate" />
+<ul>
+    <li>List Item1</li>
+    <li>List Item2</li>
+</ul>
+</body>
+</html>

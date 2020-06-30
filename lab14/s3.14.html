@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var employeesJSON = [
+                {
+                    "firstName" : "Philips",
+                    "lastName" : "LG",
+                    "gender" : "Male",
+                    "salary" : 5000
+                },
+                {
+                    "firstName" : "Samsung",
+                    "lastName" : "Sam",
+                    "gender" : "Female",
+                    "salary" : 4000
+                }
+            ];
+            var JSONString = JSON.stringify(employeesJSON);
+            $('#resultDiv').html(JSONString);
+
+        });
+    </script>
+</head>
+<body style="font: Arial">
+<div id="resultDiv"></div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnSubmit').click(function () {
+                var result = $('input[type="checkbox"]: checked');
+                if (result.length >0 ) {
+                    var resultString = result.length + " checkboxe(s) checked<br/>";
+                    result.each(function () {
+                        resultString += $(this).val() + "<br/>";
+                    });
+                    $('#divResult').html(resultString);
+                }
+                else {
+                    $('#divResult').html("No checkbox checked")
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+countries:
+<input type="checkbox" name="skills" value="India" /> India
+<input type="checkbox" name="skills" value="Germany" />Germany
+<input type="checkbox" name="skills" value="Croatia" />Croatia
+<input type="checkbox" name="skills" value="Russia" />Russia
+<br /><br />
+<input id="btnSubmit" type="submit" value="submit" />
+<br /><br />
+<div id=""divResult></div>
+
+</body>
+</html>

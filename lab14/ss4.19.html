@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $("#myDialog").dialog({
+                autoOpen: false,
+            });
+            $("#open").click(function () {
+                $("#myDialog").dialog("open");
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="myDialog"
+title="Dialog">jQuery Dialog!</div>
+<button id="open">Open Dialog</button>
+
+</body>
+</html>
