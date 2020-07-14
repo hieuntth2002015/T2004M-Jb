@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chore Door</title>
+    <link rel="stylesheet" href="choredoor.css">
+    <script src="New folder/bootstrap/js/jquery-3.5.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <div id="logo"><img src="logo.svg" alt=""></div>
+    <div id="hit_te">
+    <div id="header">
+        <h2></h2><img src="star.svg" alt="">
+        Instructions
+        <img src="star.svg" alt=""></h2>
+    </div>
+    <div id="number">
+       <h1>1</h1>
+       <h1>2</h1>
+       <h1>3</h1>
+       <h1>4</h1>
+    </div>
+    <div id="content">
+          <ol>
+              <li>Behind one of these doors is the ChoreBot</li>
+              <li>Your mission is to open all of the doors without running into the ChoreBot.</li>
+              <li>If you manage to avoid the ChoreBot until the very last door, you win!</li>
+              <li>See if you can score a winning steak!</li>
+          </ol>
+    </div>
+    <div id="ramdomImage">
+          <img id="door1" src="closed_door.svg" alt="">
+          <img id="door2" src="closed_door.svg" alt="">
+          <img id="door3" src="closed_door.svg" alt="">
+           
+    </div>  
+    <div id="button">
+        <button name="button" onclick="goodluck();" id="button" type=button>Good Luck!</button>
+    </div>
+    <div id="current">
+        <p>Current Streak:</p>
+        <div id="currentstreak"></div>  
+    </div>
+    <div id="best">
+        <p>Best Streak:</p>
+        <div id="beststreak"></div> 
+    </div>
+    </div> 
+    <script src="choredoor.js"></script>
+</body>
+</html>
