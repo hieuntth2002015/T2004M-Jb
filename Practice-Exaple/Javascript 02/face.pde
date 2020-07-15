@@ -28,7 +28,7 @@ draw = function() {
     
     // face
     fill(237, 28, 36);
-    ellipse(x+400, 208, 300, 300);
+    ellipse(x+400, 208, 260, 260);
 
     // eyes
     fill(37, 288, 62);
@@ -42,7 +42,7 @@ draw = function() {
 
      // face
     fill(15, 45, 251);
-    ellipse(x+200, 508, 300, 300);
+    ellipse(x+200, 508, 350, 350);
 
     // eyes
     fill(240, 62, 147);
