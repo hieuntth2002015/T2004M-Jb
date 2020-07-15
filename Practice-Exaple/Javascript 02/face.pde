@@ -37,7 +37,7 @@ draw = function() {
 
     // mouth
     fill(204, 208, 57);
-    ellipse(x + 450, 240, 120, 136);
+    ellipse(x + 450, 240, 100, 116);
      eyeSize2 = eyeSize2 + 0.5;
 
      // face
@@ -51,6 +51,6 @@ draw = function() {
 
     // mouth
     fill(73, 196, 70);
-    ellipse(x + 250, 550, 120, 136);
+    ellipse(x + 260, 560, 130, 146);
     eyeSize3 = eyeSize3 + 0.75;
 };
